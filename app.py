@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Hello from your CI/CD Flask app!"
+    return "Hello from your CI/CD Flask app! version 2"
 
 @app.route("/hello")
 def hello():
