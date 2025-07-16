@@ -8,3 +8,6 @@ def home():
 @app.route("/hello")
 def hello():
     return "Hi from /hello"
+
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=10000)
